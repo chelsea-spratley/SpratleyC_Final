@@ -506,6 +506,18 @@
       "pg" : 0,
       "sct" : 0
     },
+    "\/dev\/scss\/content\/weather.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/dev\/scss\/content\/weather-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
     "\/dev\/scss\/content\/weather.scss" : {
       "aP" : 0,
       "bl" : 0,
