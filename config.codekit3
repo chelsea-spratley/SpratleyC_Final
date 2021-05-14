@@ -217,14 +217,6 @@
       "sC" : 3,
       "tS" : 0
     },
-    "\/design\/SpratleyC_Final.zip" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/design\/SpratleyC_Final.zip",
-      "oF" : 0
-    },
     "\/dev\/content\/do.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -601,12 +593,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/node_modules" : {
-      "ft" : 65536,
-      "oA" : 2,
-      "oAP" : "\/node_modules",
-      "oF" : 0
     },
     "\/package-lock.json" : {
       "ft" : 524288,
