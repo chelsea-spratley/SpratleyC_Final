@@ -241,14 +241,6 @@
       "oAP" : "\/dev\/content\/footer.html",
       "oF" : 0
     },
-    "\/dev\/content\/header.kit" : {
-      "cB" : 0,
-      "ft" : 2048,
-      "hM" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/content\/header.html",
-      "oF" : 0
-    },
     "\/dev\/content\/hero.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -442,20 +434,6 @@
       "pg" : 0,
       "sct" : 0
     },
-    "\/dev\/scss\/content\/header.scss" : {
-      "aP" : 0,
-      "bl" : 0,
-      "dP" : 10,
-      "ec" : 1,
-      "ft" : 4,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/content\/header.css",
-      "oF" : 0,
-      "oS" : 0,
-      "pg" : 0,
-      "sct" : 0
-    },
     "\/dev\/scss\/content\/hero.scss" : {
       "aP" : 0,
       "bl" : 0,
@@ -497,18 +475,6 @@
       "oS" : 0,
       "pg" : 0,
       "sct" : 0
-    },
-    "\/dev\/scss\/content\/weather.css" : {
-      "aP" : 1,
-      "bl" : 0,
-      "ci" : 0,
-      "co" : 0,
-      "ft" : 16,
-      "ma" : 0,
-      "oA" : 0,
-      "oAP" : "\/dev\/scss\/content\/weather-min.css",
-      "oF" : 0,
-      "pg" : 0
     },
     "\/dev\/scss\/content\/weather.scss" : {
       "aP" : 0,
