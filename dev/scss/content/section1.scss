@@ -1,0 +1,9 @@
+.section1 {
+    display: grid;
+    grid-template-rows: 206px ;
+
+    .image{
+        display: grid;
+        grid-template-columns: 600px 600px;
+    }
+}

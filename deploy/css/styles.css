@@ -384,3 +384,36 @@ p {
 .section-title {
   font-weight: 300;
 }
+
+.hero .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.hero .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section1 {
+  display: grid;
+  grid-template-rows: 206px;
+}
+.section1 .image {
+  display: grid;
+  grid-template-columns: 600px 600px;
+}
+
+.footer .container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.footer .centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
