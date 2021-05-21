@@ -400,10 +400,36 @@ p {
 .section1 {
   display: grid;
   grid-template-rows: 206px;
+  text-align: center;
 }
 .section1 .image {
   display: grid;
-  grid-template-columns: 600px 600px;
+  grid-template-columns: 600px auto;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  text-align: left;
+}
+.section1 img {
+  border-radius: 50%;
+}
+
+.eat {
+  text-align: center;
+}
+
+.p1 {
+  text-align: left;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.imgs {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  grid-gap: 15px;
 }
 
 .footer .container {
