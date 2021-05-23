@@ -419,17 +419,62 @@ p {
   text-align: center;
 }
 
+.bkimg {
+  -webkit-filter: blur(5px);
+  /* Safari 6.0 - 9.0 */
+  filter: blur(5px);
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .p1 {
   text-align: left;
-  display: grid;
-  grid-template-columns: auto auto auto;
 }
 
 .imgs {
   display: grid;
-  grid-template-columns: repeat(3, 200px);
-  grid-template-rows: repeat(3, 200px);
-  grid-gap: 15px;
+  grid-template-columns: repeat(4, 200px);
+  grid-gap: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  grid-template-rows: repeat(2, 100px);
+  grid-gap: 100px;
+  text-align: left;
+}
+
+.weather .title {
+  text-align: left;
+}
+.weather img {
+  border-radius: 50%;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 450px;
+}
+.weather h4 {
+  display: grid;
+  grid-template-columns: 600px auto;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 150px;
+  padding-left: 450px;
+  text-align: left;
 }
 
 .footer .container {
