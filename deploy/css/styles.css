@@ -396,11 +396,21 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.hero h1 {
+  padding-top: 600px;
+  font-size: 72px;
+  font-family: fira-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
 
 .section1 {
   display: grid;
   grid-template-rows: 206px;
   text-align: center;
+  font-family: montserrat, sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .section1 .image {
   display: grid;
@@ -413,6 +423,18 @@ p {
 }
 .section1 img {
   border-radius: 50%;
+}
+.section1 h2 {
+  padding-top: 40px;
+  padding-left: 300px;
+  padding-right: 300px;
+  color: #ffffff;
+  font-size: 32px;
+}
+.section1 p {
+  padding-left: 75px;
+  padding-right: 200px;
+  padding-top: 190px;
 }
 
 .eat {
@@ -487,4 +509,18 @@ p {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.footer h1 {
+  font-size: 72px;
+  font-family: fira-sans, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding-right: 360px;
+  padding-bottom: 250px;
+  padding-top: 150px;
+}
+.footer .icons {
+  font-size: 75px;
+  padding-left: 300px;
+  padding-top: 200px;
 }
