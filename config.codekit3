@@ -249,6 +249,14 @@
       "oAP" : "\/dev\/content\/hero.html",
       "oF" : 0
     },
+    "\/dev\/content\/nav.kit" : {
+      "cB" : 0,
+      "ft" : 2048,
+      "hM" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/content\/nav.html",
+      "oF" : 0
+    },
     "\/dev\/content\/section1.kit" : {
       "cB" : 0,
       "ft" : 2048,
@@ -387,6 +395,20 @@
       "ma" : 0,
       "oA" : 1,
       "oAP" : "\/dev\/scss\/components\/_navigation.css",
+      "oF" : 0,
+      "oS" : 0,
+      "pg" : 0,
+      "sct" : 0
+    },
+    "\/dev\/scss\/content\/_nav.scss" : {
+      "aP" : 0,
+      "bl" : 0,
+      "dP" : 10,
+      "ec" : 1,
+      "ft" : 4,
+      "ma" : 0,
+      "oA" : 1,
+      "oAP" : "\/dev\/scss\/content\/_nav.css",
       "oF" : 0,
       "oS" : 0,
       "pg" : 0,

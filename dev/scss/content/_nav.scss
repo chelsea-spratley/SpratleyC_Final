@@ -1,0 +1,46 @@
+/* =============
+    Navigation
+============= */
+#nav-container {
+	background-color:  #FFBF69;
+	display: none;
+	width: 100%;
+	position: absolute;
+	top: 58px;
+	left: 0;
+	.nav-btns {
+		display: inline-block;
+		text-decoration: none;
+		margin: 0 auto;
+		color: $white;
+		padding: 10px 5px;
+		width: 100%;
+		border-bottom: 2px solid transparent;
+		&:hover {
+			// background: $blueCharcoal;
+			border-bottom: 2px solid #ffffff;
+		}
+		&:active {
+			background: #ffffff;
+		}
+	}
+	ul li {
+		text-align: center;
+	}
+	@include lg {
+		background-color: none;
+		display: block !important;
+		position: unset;
+		width: auto;
+		.nav-btns {
+			color: #ffffff;
+		}
+		ul {
+			display: flex;
+			align-items: center;
+		}
+		ul li {
+			margin: 0 20px;
+		}
+	}
+}
