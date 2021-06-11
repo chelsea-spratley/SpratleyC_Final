@@ -1,0 +1,14 @@
+.pstay {
+    display: grid;
+    grid-template-columns: 500px;
+    grid-template-rows:  100px 100px 100px 100px;
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-left: 500px;
+}
+ .background {
+     background-color: #2EC4B6;
+     color: white;
+     height: 200px;
+ }

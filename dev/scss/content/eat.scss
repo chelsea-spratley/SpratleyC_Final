@@ -10,18 +10,22 @@
 
 .container {
     position:relative;
-    text-align: center;
     color: white;
 }
   .centered {
     position: absolute;
-    top: 0%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -110%, );
+    margin-top: 20px;
+    
+    
   }   
 
 .p1 {
     text-align: left;
+    margin-left: 300px;
+    margin-right: 200px;
+    margin-top: 30px;
 }
 
 .imgs {
@@ -30,15 +34,33 @@
     grid-gap: 100px;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 20px;
 }
 
 .info {
     display: grid;
-    grid-template-columns: repeat(2, 200px);
+    grid-template-columns: repeat(2, 300px);
     grid-template-rows: repeat(2, 100px);
-    grid-gap: 100px;
+    grid-gap: 50px;
     text-align: left;
-   
+    margin-left: 300px;
+    
 }
 
-   
+h1 {
+    font-family: fira-sans, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+h3 {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h4 {
+    font-family: montserrat, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
